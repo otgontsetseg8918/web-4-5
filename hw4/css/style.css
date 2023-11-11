@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    clear: both;
+}
+header{
+    padding: 20px;
+    background-color: rgb(70, 29, 120);
+}
+nav{
+    margin: 20px 10px;
+    background-color: orange;
+}
+ul{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+li{
+    display: inline;
+}
+.one{
+    padding: 30px;
+    border: 40px solid black;
+    width: 330px;
+    height: 18px;
+}
+.two{
+    border: 40px solid red;
+    width: 330px;
+    height: 18px;
+    box-sizing: border-box;
+}
+.three{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: yellow;
+}
+.four{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background-color: aqua;
+}
+.text1{
+    padding: 10px;
+    border: 2px solid grey;
+    background: rgba(299, 150, 70, 40);
+}
+.text2{
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: gray;
+}
+.text3{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: grey;
+}
+header, section, aside, footer{
+    display: block;
+    border: 1px solid black;
+}
+section{
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+aside{
+    float: left;
+    width: 220px;
+    margin: 20px 0;
+    padding: 20px;
+    background: aquamarine;
+}
+footer{
+    clear: both;
+    text-align: center;
+    border-top: 5px solid black;
+    margin: 20px;
+}
+#six{
+    width: 980px;
+    margin: 15px auto;
+}
