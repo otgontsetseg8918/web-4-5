@@ -1,0 +1,76 @@
+a:link{ 
+    color: red;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: rgb(50, 190, 75);
+    font-weight: bold;
+}
+p:first-child{
+    color: red;
+}
+p i:first-child{
+    color: rgb(50, 124, 255);
+}
+p i:first-child i{
+    text-decoration: overline;
+}
+span, div, em{
+    padding: 5px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+ul .li1 li:first-child{
+    color: black;
+    font-weight : bold;
+}
+div>span{
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.first span:nth-child(2n + 1){
+    background-color: lime;
+}
+.second span:nth-child(2n + 1 ){
+  background-color: lime;
+}
+a::after {   
+    content: url(./img/3.png);  
+}
+div::first-line { 
+    color: red;   
+}
+#special{
+    background-color: yellow;
+}
+.alertce{
+    border-width: 1px;
+}
+div .stop{
+    background-color: red;
+}
+div .go{
+    background-color:green;
+}
+ul li{
+    border: 1px solid green;
+    margin-bottom: 3px; 
+}
+div.container h1{
+    color: blue;
+}
+div.container h2{
+    background-color: blue;
+    color: white;
+}
+div.container{
+    font-size: 200%;
+}
+h5{
+    content: url(./img/3.png);
+}
